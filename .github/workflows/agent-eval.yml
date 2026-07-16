@@ -32,5 +32,5 @@ jobs:
         with:
           azure-ai-project-endpoint: ${{ vars.AZURE_AI_PROJECT_ENDPOINT }}
           deployment-name: gpt-5.4-mini
-          agent-ids: MyAgent
+          agent-ids: MyAgent:4
           data-path: ${{ github.workspace }}/evals/intune-helpdesk.json
