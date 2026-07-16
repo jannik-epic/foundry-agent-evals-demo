@@ -1,0 +1,16 @@
+{
+  "name": "intune-helpdesk-eval",
+  "evaluators": [
+    "builtin.intent_resolution",
+    "builtin.task_adherence",
+    "builtin.relevance",
+    "builtin.coherence",
+    "builtin.fluency"
+  ],
+  "data": [
+    { "query": "What does Intune error 0x87D00668 mean and how do I fix it?" },
+    { "query": "My Windows device shows as non compliant because of BitLocker. What should I check?" },
+    { "query": "How do I force an Intune sync on a Windows device?" },
+    { "query": "What is the difference between retire and wipe in Intune?" }
+  ]
+}
